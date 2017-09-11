@@ -8,7 +8,7 @@ schema: 2.0.0
 # Suspend-AzureRmAutomationJob
 
 ## SYNOPSIS
-Suspends an Automation job.
+Suspends a Workflow based Automation job.
 
 ## SYNTAX
 
@@ -18,7 +18,7 @@ Suspend-AzureRmAutomationJob [-Id] <Guid> [-ResourceGroupName] <String> [-Automa
 ```
 
 ## DESCRIPTION
-The **Suspend-AzureRmAutomationJob** cmdlet suspends an Azure Automation job.
+The **Suspend-AzureRmAutomationJob** cmdlet suspends a Workflow based Azure Automation job. This can be either PowerShell Workflow or PowerShell Graphical Workflow job.
 Specify a running Automation job.
 
 To resume a suspended job, use the Resume-AzureRmAutomationJob cmdlet.
